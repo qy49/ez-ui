@@ -1,0 +1,24 @@
+{
+  "name": "ez-ui",
+  "version": "1.0.0",
+  "description": "An UI library design by Lit framework",
+  "private": true,
+  "keywords": [
+    "Lit",
+    "Web Component"
+  ],
+  "author": "qy49",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@ez/eslint-config": "workspace:*",
+    "@ez/typescript-config": "workspace:*",
+    "prettier": "^3.1.0",
+    "turbo": "latest"
+  }
+}

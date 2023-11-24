@@ -1,0 +1,3 @@
+{
+  "extends": "@ez/typescript-config/base.json"
+}
